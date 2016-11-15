@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+/* When the screen is less than 1264 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:1264px) {
+  .col-half-form-first{width:100%;}
+  .col-half-form-last{width:100%;}
+  #day{ background-color:transparent !important; color:#FFFFFF; font-family:inherit; margin-left:10px; width:95%}
+#month{ background-color:transparent !important; color:#FFFFFF; font-family:inherit; margin-left:10px; width:95%}
+  }
+
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  .col-full{width:100%;}
+  .col-quart{width:50% !important;}
+  .col-third{width:100%;}
+  .col-half-first{width:50%; margin:0px; padding:0px;}
+  .col-half{width:50%; margin:0px; padding:0px;}
+  .col-half-last{width:50%; margin:0px; padding:0px;}
+  .col-third-first{width:100%; margin:0px; padding:0px;}
+  .col-third{width:100%; margin:0px; padding:0px;}
+  .col-third-last{width:100%; margin:0px; padding:0px;}
+  .header .social-media .social-media-icons{width: 100%;margin-left: auto;margin-right: auto;}
+  
+ .theme-default .nivo-controlNav{width:37%; display:none;}
+ .nivo-directionNav{display:inline;}
+}
+
+/* When the screen is less than 380 pixels wide, hide all list items, except for the first one ("Home"). Show the list item thatontains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:380px) {
+  .col-full{width:100%;}
+  .col-quart{width:100% !important;}
+  .col-third{width:100%;}
+  .col-half-first{width:100%; margin:0px; padding:0px;}
+  .col-half{width:100%; margin:0px; padding:0px;}
+  .col-half-last{width:100%; margin:0px; padding:0px;}
+  .col-third-first{width:100%; margin:0px; padding:0px;}
+  .col-third{width:100%; margin:0px; padding:0px;}
+  .col-third-last{width:100%; margin:0px; padding:0px;}
+   .theme-default .nivo-controlNav{width:37%; display:none;}
+ .nivo-directionNav{display:inline;}
+}
+

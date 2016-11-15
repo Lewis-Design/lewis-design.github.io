@@ -1,0 +1,313 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/framework.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>PBT Propeller - Home</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive-site.css">
+<link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/themes/light/light.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/themes/dark/dark.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/themes/bar/bar.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/slider-style.css" type="text/css" media="screen" />
+<link href="css/responsive-site.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<!-- js -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#nav-mobile").html($("#nav-main").html());
+        $("#nav-trigger span").click(function(){
+            if ($("nav#nav-mobile ul").hasClass("expanded")) {
+                $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+                $(this).removeClass("open");
+            } else {
+                $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+                $(this).addClass("open");
+            }
+        });
+    });
+</script>
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/book-table-roll.png','images/menu-roll.png','images/christmas-roll.png','images/contact-roll.png','images/facebook-roll.png','images/twitter-roll.png','images/instagram-roll.png')">
+<img src="images/home.jpg" width="100%" style="position:top center;" alt="interior of cafe image"/>
+
+<div class="page">
+<!-- InstanceBeginEditable name="header" -->
+	<div class="header">	
+		<div class="logo-container">
+            <div class="logo">
+                <center>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="PBT Logo" width="30%"/>
+                    </a>
+                </center>
+            </div>
+        </div>    
+		<div class="menu">
+         	 <div id="nav-trigger">
+            	<span>Menu</span>
+        	</div>
+            <nav id="nav-main">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="">Bookings</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        	<nav id="nav-mobile"></nav>           
+     	</div>
+        
+        <div class="social-media">
+        	<div class="social-media-icons">
+                <div class="sm-icon">
+                    <center>
+                    	<a href="https://www.facebook.com" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook-lg','','images/facebook-roll.png',1)"><img src="images/facebook.png" alt="Facebook page link" id="facebook-lg"></a>
+                    </center>
+                </div>
+                <div class="sm-icon">
+                    <center>
+                    	<a href="https://www.twitter.com" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter-lg','','images/twitter-roll.png',1)"><img src="images/twitter.png" alt="Twitter page link" id="twitter-lg"></a>
+                    </center>
+                </div>
+                <div class="sm-icon">
+                    <center>
+                      	<a href="https://www.instagram.com/" title="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('instagram-lg','','images/instagram-roll.png',1)"><img src="images/instagram.png" alt="Instagram page link" id="instagram-lg"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+	</div>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="content-area" -->
+    <div class="content">
+	  	<div class="col-full white-bg">
+			<h1>Welcome To PBT,<br/>propeller!</h1>
+			<h2><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </em></h2>
+		</div>
+        <div class="col-quart">
+         	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('book-table','','images/book-table-roll.png',1)"><img src="images/book-table.png" alt="Book a table today" id="book-table" width="100%"></a>
+      	</div>
+      	<div class="col-quart">
+        	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menus','','images/menu-roll.png',1)"><img src="images/menus.png" alt="View our menus" width="100%" id="menus"></a>
+     	</div>
+      	<div class="col-quart">
+        	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('christmas parites','','images/christmas-roll.png',1)"><img src="images/christmas.png" alt="Christmas parties" width="100%" id="christmas parites"></a>
+     	</div>
+      	<div class="col-quart">
+        	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact us','','images/contact-roll.png',1)"><img src="images/contact.png" alt="Contact us" width="100%" id="Contact us"></a>
+    	</div>
+        <div class="col-full">
+			<div id="wrapper" style="position:relative;">
+	<div class="slider-wrapper theme-default">
+		<div id="slider" class="nivoSlider"> 
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider1"  data-transition="slideInLeft" /> 
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider2" data-transition="slideInLeft"  />
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider3" data-transition="slideInLeft" /> 
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider4" data-transition="slideInLeft" /> 
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider5" data-transition="slideInLeft" />
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider6" data-transition="slideInLeft" />
+        <img src="images/slider.png" data-thumb="../images/slider.png" alt="slider7" data-transition="slideInLeft" /></div>
+		<div id="htmlcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script> 
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		</div>
+      	<div class="col-third-first">
+        	<h3>Twitter</h3>
+        	<hr>
+        	<p  class="tags padding-bottom-15"><em>@PBT_propeller<br></em></p>
+        	<center><a class="btn" href="#">follow</a></center>
+        	<span id="breaker1">&nbsp;</span>
+        	<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
+        	<p class="align-right"><span><em>an hour ago</em></span></p>
+        </div>
+      	<div class="col-third">
+        	<h3>Instagram</h3>
+        	<hr>
+        	<p class="tags padding-bottom-15"><em>PBT_propeller<br></em></p>
+        	<center><a class="btn" href="#">follow</a></center>
+        	<div id="breaker2">&nbsp;</div>
+            <div class="col-half-first">
+            	<a href="images/instagram-1.png" target="_blank">
+                	<img src="images/instagram-1.png" alt="Salad Bowl" width="100%"/>
+                </a>
+            </div>
+            <div class="col-half-last">
+            	<a href="images/instagram-2.png" target="_blank">
+                	<img src="images/instagram-2.png" alt="Sliced Orange" width="100%"/>
+                </a>
+            </div>
+		</div>
+      	<div class="col-third-last">
+        	<h3>Sign up</h3>
+         	<hr>
+         	<p class="tags"><em>Subscribe to our newsletter and never miss out on our exclusive offer</em></p>
+         	<div id="breaker3">&nbsp;</div>
+            <div id="contact_form">
+    			<form name="form1" id="ff" method="post" action="php/contactform-send.php"> 
+                	<div class="form-box">
+                    <div class="col-third-form-first"><label for="name"><em>Name</em></label></div>
+                    <div class="col-twothird-form-last"><input type="text" placeholder="" name="yourname" id="yourname" required autofocus></div>
+                    </div>
+                    <div class="form-box">
+                    <div class="col-third-form-first"><label for="email"><em>Email</em></label></div>
+                    <div class="col-twothird-form-last"><input type="email" placeholder="" name="email" id="email" required autofocus></div>
+                    </div>
+                    <div class="form-box" style="margin-bottom:15px;">
+                    <div class="col-third-form-first"><label><em>Birthday</em></label></div>
+                    <div class="col-third-form-second">
+                    	<select name="day" id="day" onchange="" size="1">
+                        				<option value="-">Date</option>
+                                        <option value="01">01st</option>
+                                        <option value="02">02nd</option>
+                                        <option value="03">03rd</option>
+                                        <option value="04">04th</option>
+                                        <option value="05">05th</option>
+                                        <option value="06">06th</option>
+                                        <option value="07">07th</option>
+                                        <option value="08">08th</option>
+                                        <option value="09">09th</option>
+                                        <option value="10">10th</option>
+                                        <option value="11">11th</option>
+                                        <option value="12">12th</option>
+                                        <option value="13">13th</option>
+                                        <option value="14">14th</option>
+                                        <option value="15">15th</option>
+                                        <option value="16">16th</option>
+                                        <option value="17">17th</option>
+                                        <option value="18">18th</option>
+                                        <option value="19">19th</option>
+                                        <option value="20">20th</option>
+                                        <option value="21">21st</option>
+                                        <option value="22">22nd</option>
+                                        <option value="23">23rd</option>
+                                        <option value="24">24th</option>
+                                        <option value="25">25th</option>
+                                        <option value="26">26th</option>
+                                        <option value="27">27th</option>
+                                        <option value="28">28th</option>
+                                        <option value="29">29th</option>
+                                        <option value="30">30th</option>
+                                        <option value="31">31st</option>
+                                    </select>
+                    </div>
+                    <div class="col-third-form-last">
+                    	<select name="month" id="month" onchange="" size="1">
+                        				<option value="Month">Month</option>
+                                        <option value="01">Jan</option>
+                                        <option value="02">Feb</option>
+                                        <option value="03">Mar</option>
+                                        <option value="04">Apr</option>
+                                        <option value="05">May</option>
+                                        <option value="06">Jun</option>
+                                        <option value="07">Jul</option>
+                                        <option value="08">Aug</option>
+                                        <option value="09">Sep</option>
+                                        <option value="10">Oct</option>
+                                        <option value="11">Nov</option>
+                                        <option value="12">Dec</option>
+                                    </select>
+                    </div>
+                    </div>
+                    
+                    
+         			<input class="sendButton" type="submit" name="Submit" value="Send">         
+    			</form>
+        	</div>
+        </div>
+        <div class="footer">
+        	<div class="footer-text">
+            	<div class="footer-text-left">
+                	<p>
+                    	PBT Propeller
+                        <span class="line-breaker">|</span>
+                        1-3 Windsor Court
+                        <span class="line-breaker">|</span>
+                        Rugby
+                        <span class="line-breaker">|</span>
+                        Warwickshire
+                        <span class="line-breaker">|</span>
+                        CV21 3BH
+                        <span class="line-breaker">|</span>
+                        <a href="mailto:pbt@propcom.co.uk" class="footer-link">pbt@propcom.co.uk</a>
+                        <span class="line-breaker">|</span>
+                        <a href="tel:01788566270" class="footer-link">01788 566270</a>
+                        <span class="line-breaker">|</span>
+                        <a href="https://www.facebook.com">
+                        	<img src="images/facebook-sm.png" width="10" alt="Find us on facebook"/>
+                       	</a>
+                        <span class="line-breaker">&nbsp;</span>
+                        <a href="https://www.twitter.com">
+                        	<img src="images/twitter-sm.png" width="10px"  alt="Find us on facebook"/>
+                        </a>
+                        <span class="line-breaker">&nbsp;</span>
+                        <a href="https://www.instagram.com">
+                        	<img src="images/instagram-sm.png" alt="Find us on facebook" width="10px"/>
+                        </a>
+                	</p>
+                    
+                </div>
+          	</div>
+    	</div>  
+	</div>
+    <!-- InstanceEndEditable -->
+</div>
+<img src="images/bg-bottom.jpg" width="100%" style="position: bottom center; margin-top: -600px" alt="close up of cafe table with plant on it"/>
+
+</body>
+<!-- InstanceEnd --></html>
