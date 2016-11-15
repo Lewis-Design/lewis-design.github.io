@@ -10,7 +10,7 @@ http://stackoverflow.com/questions/14821087/horizontal-line-and-right-way-to-cod
 Slider config
 http://www.jqueryscript.net/slider/nivo-slider.html 
 
-Follow nutton generator
+Follow button generator
 http://css3buttongenerator.com/
 
 Responsive menu tutorial
